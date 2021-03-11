@@ -1,6 +1,6 @@
 // Add your code here
 const submitData = (name, email) => {
-  fetch('http://localhost:3000/users', {
+  return fetch('http://localhost:3000/users', {
     headers: {
       "Content-Type": "application/json",
       "Accept": "application/json"
